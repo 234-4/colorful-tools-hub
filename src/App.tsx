@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/colorful-tools-hub">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
