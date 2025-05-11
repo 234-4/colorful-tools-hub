@@ -1,7 +1,6 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "homepage":"https://234-4.github.io/colorful-tools-hub/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
