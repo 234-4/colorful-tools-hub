@@ -5,10 +5,11 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/colorful-tools-hub/", // ✅ required for GitHub Pages
+  base: "/colorful-tools-hub/", // ✅ Base path for GitHub Pages
   server: {
     host: "::",
     port: 8080,
+    open: true, // Automatically open browser when running dev server
   },
   plugins: [
     react(),
